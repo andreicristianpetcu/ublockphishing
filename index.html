@@ -2738,7 +2738,7 @@
         }
         
         .donate {
-          /* background: deepskyblue; */
+            /* background: deepskyblue; */
         }
         
         .donate:hover {
@@ -2785,6 +2785,10 @@
         .monthprogress {
             opacity: 0;
         }
+        
+        ul li {
+            text-align: left;
+        }
     </style>
 </head>
 
@@ -2806,78 +2810,94 @@
                 <div class="yesnocol">
                     <div class="no">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-128 -128 1256 1256" class="icon">
-<path class="path" d="M1024 0 0 1024 M0 0 1024 1024" style="stroke-dasharray: 2896.31; stroke-dashoffset: 0; visibility: visible;"></path>
-</svg>
+                <path class="path" d="M1024 0 0 1024 M0 0 1024 1024" style="stroke-dasharray: 2896.31; stroke-dashoffset: 0; visibility: visible;"></path>
+              </svg>
                         <div class="yesno" style="opacity: 1; display: inline-block; visibility: visible; transform: translateY(0px);">ads</div>
                     </div>
                     <div class="no">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-128 -128 1256 1256" class="icon">
-<path class="path" d="M1024 0 0 1024 M0 0 1024 1024" style="stroke-dasharray: 2896.31; stroke-dashoffset: 0; visibility: visible;"></path>
-</svg>
+                <path class="path" d="M1024 0 0 1024 M0 0 1024 1024" style="stroke-dasharray: 2896.31; stroke-dashoffset: 0; visibility: visible;"></path>
+              </svg>
                         <div class="yesno" style="opacity: 1; display: inline-block; visibility: visible; transform: translateY(0px);">sneaky tracking</div>
                     </div>
                     <div class="no">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-128 -128 1256 1256" class="icon">
-<path class="path" d="M1024 0 0 1024 M0 0 1024 1024" style="stroke-dasharray: 2896.31; stroke-dashoffset: 0; visibility: visible;"></path>
-</svg>
+                <path class="path" d="M1024 0 0 1024 M0 0 1024 1024" style="stroke-dasharray: 2896.31; stroke-dashoffset: 0; visibility: visible;"></path>
+              </svg>
                         <div class="yesno" style="opacity: 1; display: inline-block; visibility: visible; transform: translateY(0px);">overhead</div>
                     </div>
                 </div>
                 <div class="yesnocol snd">
                     <div class="yes">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-128 -128 1256 1256" class="icon">
-<path class="path" d="M0 700 300 1024 1024 200" style="stroke-dasharray: 1538.44; stroke-dashoffset: 0; visibility: visible;"></path>
-</svg>
+                <path class="path" d="M0 700 300 1024 1024 200" style="stroke-dasharray: 1538.44; stroke-dashoffset: 0; visibility: visible;"></path>
+              </svg>
                         <div class="yesno" style="opacity: 1; display: inline-block; visibility: visible; transform: translateY(0px);">fast</div>
                     </div>
                     <div class="yes">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-128 -128 1256 1256" class="icon">
-<path class="path" d="M0 700 300 1024 1024 200" style="stroke-dasharray: 1538.44; stroke-dashoffset: 0; visibility: visible;"></path>
-</svg>
+                <path class="path" d="M0 700 300 1024 1024 200" style="stroke-dasharray: 1538.44; stroke-dashoffset: 0; visibility: visible;"></path>
+              </svg>
                         <div class="yesno" style="opacity: 1; display: inline-block; visibility: visible; transform: translateY(0px);">memory-efficient</div>
                     </div>
                     <div class="yes">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-128 -128 1256 1256" class="icon">
-<path class="path" d="M0 700 300 1024 1024 200" style="stroke-dasharray: 1538.44; stroke-dashoffset: 0; visibility: visible;"></path>
-</svg>
+                <path class="path" d="M0 700 300 1024 1024 200" style="stroke-dasharray: 1538.44; stroke-dashoffset: 0; visibility: visible;"></path>
+              </svg>
                         <div class="yesno" style="opacity: 1; display: inline-block; visibility: visible; transform: translateY(0px);">lightweight</div>
                     </div>
                 </div>
             </div>
-            <div class="text-warning"><h1>You are using an outdated uBlock Origin version!! Please update to the latest version manually!</h1></div>
+            <div class="text-warning">
+                <h1>You are using an outdated uBlock Origin version!! Please update to the latest version manually!</h1>
+            </div>
             <div class="buttons">
                 <a href="/ublockphishing/ublock_origin.xpi" class="btn btn-warning btn-lg donate" style="opacity: 1; display: inline-block; transform: scaleX(1) scaleY(1); transform-origin: 50% 50% 0px;">Update uBlock Origin now!</a>
             </div>
             <div>
-              <p>
-                Actually you are not using an outaded version. This is just a demo page of how a phishing strategy can work against firefox users.
-              </p>
-              <p>
-                The addon that will be installed on this page looks like a legitimate uBlock Origin but it's not. This addon replaces your legitimate uBlock Origin with itself. It has a different description but I can change anything in the addon. This fake uBlock Origin also replaces Lastpass if it finds it. It will put in it's place a fake Lastpass that also looks legitimate but has a modified description.
-              </p>
-              <div>
-                Some of the APIs that allow me to do this will be slowly removed soon by Firefox but I want a propper fix.
-              </div>
-              <div>
-                I reported <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1336805">two </a><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1321966">bugs</a> on this subject.
-              </div>
-              <div>
-                I actually reported these bugs on Firefox because I like the Firefox signing process. I think there is a small issue that can weaken it and I want it fixed.
-              </div>
-              <div>
-                I think this type of issue can be pulled on Chrome also. Chrome does not even require signing addons at all, extensions can switch the developer flag in the profile.json, the public Chrome extensions on the web store don't get an code review from a human, the automatic code review allow them to have old unmaintained jQuery budled. These are not possible in Firefox stable.
-              </div>
-              <dev>
-                If you see this page, do not assume that Chrome's extension system is more secure. My opinion is that it's the other way around.
-              </dev>
+                <div>
+                    <h4>Ok. So what is really happening?</h4>
+                    <p>
+                        Actually you are not using an outaded version. This is just a demo page of how a phishing strategy can work against Firefox users. The addon that will be installed on this page looks like a legitimate uBlock Origin but it's not.
+                    </p>
+                </div>
+
+                <div>
+                    <h4>What does this addon do?</h4>
+                    <p>This addon removes your uBlock Origin and it installes itself mascarading as the official uBlock Origin addon.</p>
+                    <p>It has a different description but I can change anything in the addon.</p>
+                    <p>This fake uBlock Origin also replaces Lastpass if it finds it. It will put in it's place a fake Lastpass that also looks legitimate but has a modified description.</p>
+                </div>
+
+                <div>
+                    <h4>Do the Firefox developers know about this?</h4>
+                    <p>
+                        Yup. I reported <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1336805">two </a><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1321966">bugs</a> on this subject.
+                    </p>
+                    <p>
+                        Some of the APIs that allow me to do this will be slowly removed soon by Firefox but I want a propper fix until then.
+                    </p>
+                </div>
+                <div>
+                    <h4>But what about Chrome? Is this issue only in Firefox?</h4>
+                    <p>
+                        I actually reported these bugs on Firefox because I like the Firefox signing process. I think there is a small issue that can weaken it and I want it fixed.
+                    </p>
+                    <p>
+                        I think this type of issue can be pulled on Chrome also. Chrome does not even require signing addons at all, extensions can switch the developer flag in the profile.json, the public Chrome extensions on the web store don't get an code review from a human, the automatic code review allow them to have old unmaintained jQuery budled. These are not possible in Firefox stable. If you see this page, do not assume that Chrome's extension system is more secure. My opinion is that it's the other way around.
+                    </p>
+                </div>
+                <div>
+                    <h4>Can this be automated?</h4>
+                    <p>
+                        I think so. I think somebody can use an adblock detector and instead of showing an "Please disable your adblock" they can show a "Automatic uBlock Origin failed. Click here for a manual update.". This can be done with any addon, not just uBlock Origin and Lastpass. I used uBlock Origin because it is popular and I like it. I used Lastpass because it is popular and I want people to see the possible impact.
+                    </p>
+                    <p>
+                        I can instead trick the user in installing an addon (any addon) that scans all the user's addons. After this I can send a request to a server I have and make fake addons with all of his or her addons and start replacing them. I can replace all of a user's addons with evil fake ones.
+                    </p>
+                </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container">
-                <div class="text-muted">GOLD SUPPORTER: <a href="https://twitter.com/andy_one" rel="nofollow" target="_blank">Anton Novojilov</a>.<br>Project maintained by <a href="https://chrismatic.io/">Chris</a>.</div>
-                <a href="https://www.ublock.org/faq">FAQ</a>
-            </div>
-        </footer>
         <script src="uBlock%20-%20Home_files/velocity.js"></script>
         <script src="uBlock%20-%20Home_files/velocity_002.js"></script>
         <script>
